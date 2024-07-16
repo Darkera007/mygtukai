@@ -19,7 +19,7 @@ Site published at: - [Live Site of Button Templates ](https://darkera007.github.
 
 Design:
 
-- [Button Template](https://i.imgur.com/y0sTYS7.png)
+- [Button Template Design](https://i.imgur.com/y0sTYS7.png)
 
 ## 🎯 Project features/goals
 
