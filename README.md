@@ -24,8 +24,8 @@ Design:
 ## 🎯 Project features/goals
 
 - Github pages
-- CSS file
-- Easier to work in future
+- CSS 2 files
+- Easier to work in the future
 - **NO** responsive design
 
 ## 🧰 Getting Started
