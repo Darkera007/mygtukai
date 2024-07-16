@@ -2,3 +2,96 @@
     margin: 0;
     padding: 0;
 }
+
+.lg-button{
+    height: 48px;
+    padding: 14px 20px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-size: 16px;
+    border-radius: 3px;
+    line-height: 20px;
+    background-color: #7197fa;
+    color: #fff;}
+
+.md-button{
+    height: 36px;
+    padding: 8px 12px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-size: 14px;
+    border-radius: 3px;
+    line-height: 20px;
+    background-color: #7197fa;
+    color: #fff;
+
+}
+
+.sm-button{
+    height: 28px;
+    padding: 4px 8px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-size: 12px;
+    border-radius: 3px;
+    line-height: 20px;
+    background-color: #7197fa;
+    color: #fff;
+
+}
+
+.xs-button{
+    height: 20px;
+    padding: 0px 6px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-size: 10px;
+    border-radius: 3px;
+    line-height: 20px;
+    background-color: #7197fa;
+    color: #fff;
+
+}
+
+
+table{
+    text-align: center;
+    align-items: center;
+}
+
+.size{
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+tr{
+line-height: 3rem;}
+
+h1{
+    color: #4b4b5e80;
+    font-size: 24px;
+}
+
+table .table-title{
+    color: #bdbcc2;
+    font-size: 14px;
+
+}
+
+.bg-gray{
+    background-color: #f7f7f7;
+}
+
+tr > .padding {
+    padding: 0px 100px;
+}
+
+h2{
+    color: #4b4b5e80;
+    font-size: 20px;
+}
+
+.gap{
+    margin: 20px;
+}
