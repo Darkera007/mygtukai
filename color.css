@@ -1,0 +1,89 @@
+/* Melyni Mygtukai */
+
+.blue-hover{
+background-color: #7197fa;
+
+}
+
+
+.blue-active{
+    background-color: #5d7cce;
+    
+}
+
+    /* Tamsus Mygtukai */
+
+.dark-natural{
+    background-color: #4a4959;
+}
+
+.dark-hover{
+    background-color: #4a4959;
+}
+
+
+.dark-active{
+    background-color: #363642;
+}
+
+
+    /* Violet Mygtukai */
+
+    .violet-natural{
+        background-color: #8371f9;
+    }
+    
+    .violet-hover{
+        background-color: #8371f9;
+    }
+    
+    
+    .violet-active{
+        background-color: #7767e4;
+    }
+    
+/* Zali Mygtukai */
+
+        .green-natural{
+            background-color: #1db58c;
+        }
+        
+        .green-hover{
+            background-color: #1db58c;
+        }
+        
+        
+        .green-active{
+            background-color: #179472;
+        }
+        
+ /* Yellow Mygtukai */
+
+ .yellow-natural{
+    background-color: #ffbe02;
+}
+
+.yellow-hover{
+    background-color: #ffbe02;
+}
+
+
+.yellow-active{
+    background-color: #d19a01;
+}
+
+    /* Red Mygtukai */
+
+    .red-natural{
+        background-color: #e54642;
+    }
+    
+    .red-hover{
+        background-color: #e54642;
+    }
+    
+    
+    .red-active{
+        background-color: #b71814;
+    }
+    
