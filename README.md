@@ -25,7 +25,7 @@ Design:
 
 - Github pages
 - CSS file
-- Easier to work in futre
+- Easier to work in future
 - **NO** responsive design
 
 ## 🧰 Getting Started
