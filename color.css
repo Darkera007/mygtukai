@@ -87,3 +87,42 @@ background-color: #7197fa;
         background-color: #b71814;
     }
     
+
+
+.dark-disabled{
+    background-color: #b7cbfd;
+    width: 150px;
+}
+    
+    
+
+.blue-disabled{
+    background-color: #a4a4ac;
+    width: 150px;
+}
+
+
+.violet-disabled{
+    background-color: #c2b8fd;
+    width: 150px;
+}
+    
+    
+
+.green-disabled{
+    background-color: #8fdac6;
+    width: 150px;
+}
+
+.yellow-disabled{
+    background-color: #ffde7f;
+    width: 150px;
+}
+    
+    
+
+.red-disabled{
+    background-color: #f08e8b;
+    width: 150px;
+}
+

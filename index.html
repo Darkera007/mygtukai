@@ -5,105 +5,178 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="color.css" />
+
     <title>Button Templates</title>
   </head>
   <body>
-    <table-1>
-      <h1>BUTTON SIZES</h1>
+    <div class="container">
+      <table-1>
+        <h1 class="black">BUTTON SIZES</h1>
 
-      <table>
-        <tr>
-          <th class="table-title">SIZE</th>
-          <th class="table-title">HEIGHT</th>
-          <th class="table-title">FONT/WEIGHT</th>
-          <th class="table-title">FONT SIZE/LINE WEIGHT</th>
-          <th class="table-title">BORDER RADIUS</th>
-        </tr>
-        <tr>
-          <td class="size"><button class="lg-button">L. Button</button></td>
-          <td>14px / 20px</td>
-          <td>Roboto / 500</td>
-          <td>16 px / 20px</td>
-          <td>3px</td>
-        </tr>
-        <tr class="bg-gray">
-          <td class="size"><button class="md-button">M. Button</button></td>
-          <td class="padding">8px / 12px</td>
-          <td>Roboto / 500</td>
-          <td>14px / 20px</td>
-          <td>3px</td>
-        </tr>
-        <tr>
-          <td class="size"><button class="sm-button">S. Button</button></td>
-          <td>4px / 8px</td>
-          <td>Roboto / 500</td>
-          <td>12px / 20px</td>
-          <td>3px</td>
-        </tr>
-        <tr class="padding bg-gray">
-          <td class="size"><button class="xs-button">XS. Button</button></td>
-          <td>0px / 6px</td>
-          <td>Roboto / 500</td>
-          <td>10px / 20px</td>
-          <td>3px</td>
-        </tr>
-      </table>
-    </table-1>
-    <div class="gap"></div>
-    <table-2>
-      <h2>SOLID BUTTON</h2>
+        <table>
+          <tr>
+            <th class="table-title">SIZE</th>
+            <th class="table-title">HEIGHT</th>
+            <th class="table-title">FONT/WEIGHT</th>
+            <th class="table-title">FONT SIZE/LINE WEIGHT</th>
+            <th class="table-title">BORDER RADIUS</th>
+          </tr>
+          <tr>
+            <td class="size"><button class="lg-button">L. Button</button></td>
+            <td>14px / 20px</td>
+            <td>Roboto / 500</td>
+            <td>16 px / 20px</td>
+            <td>3px</td>
+          </tr>
+          <tr class="bg-gray">
+            <td class="size"><button class="md-button">M. Button</button></td>
+            <td class="padding">8px / 12px</td>
+            <td>Roboto / 500</td>
+            <td>14px / 20px</td>
+            <td>3px</td>
+          </tr>
+          <tr>
+            <td class="size"><button class="sm-button">S. Button</button></td>
+            <td>4px / 8px</td>
+            <td>Roboto / 500</td>
+            <td>12px / 20px</td>
+            <td>3px</td>
+          </tr>
+          <tr class="padding bg-gray">
+            <td class="size"><button class="xs-button">XS. Button</button></td>
+            <td>0px / 6px</td>
+            <td>Roboto / 500</td>
+            <td>10px / 20px</td>
+            <td>3px</td>
+          </tr>
+        </table>
+      </table-1>
+      <div class="gap-2"></div>
+      <table-2>
+        <h2 class="black">SOLID BUTTON</h2>
+        <div class="gap"></div>
+        <div class="solid-button">
+          <div class="button-col-3">
+            <button class="btn btn-new">NATURAL</button>
+            <button class="btn btn-new">HOVER</button>
+            <button class="btn btn-new">ACTIVE</button>
+          </div>
+
+          <div class="button-col-3">
+            <button class="btn">Primary</button>
+            <button class="btn blue-hover">Primary</button>
+            <button class="btn blue-active">Primary</button>
+          </div>
+          <div class="button-col-3">
+            <button class="btn dark-natural">Dark</button>
+            <button class="btn dark-hover">Dark</button>
+            <button class="btn dark-active">Dark</button>
+          </div>
+          <div class="button-col-3">
+            <button class="btn violet-natural">Info</button>
+            <button class="btn violet-hover">Info</button>
+            <button class="btn violet-active">Info</button>
+          </div>
+          <div class="button-col-3">
+            <button class="btn green-natural">Success</button>
+            <button class="btn green-hover">Success</button>
+            <button class="btn green-active">Success</button>
+          </div>
+          <div class="button-col-3">
+            <button class="btn yellow-natural">Warning</button>
+            <button class="btn yellow-hover">Warning</button>
+            <button class="btn yellow-active">Warning</button>
+          </div>
+          <div class="button-col-3">
+            <button class="btn red-natural">Danger</button>
+            <button class="btn red-hover">Danger</button>
+            <button class="btn red-active">Danger</button>
+          </div>
+        </div>
+      </table-2>
+      <div class="gap-2"></div>
+      <h2 class="black">DISABLED BUTTON</h2>
       <div class="gap"></div>
-      <div class="solid-button">
-        <div class="button-col-3">
-          <button class="btn btn-new">NATURAL</button>
-          <button class="btn btn-new">HOVER</button>
-          <button class="btn btn-new">ACTIVE</button>
+
+      <div class="disabled-button-class">
+        <button class="btn salinti" disabled>SOLID</button>
+
+        <button class="btn blue-disabled" disabled>Dark</button>
+        <button class="btn dark-natural dark-disabled" disabled>Primary</button>
+        <button class="btn violet-natural violet-disabled" disabled>
+          Info
+        </button>
+        <button class="btn green-natural green-disabled" disabled>
+          Success
+        </button>
+        <button class="btn yellow-natural yellow-disabled" disabled>
+          Warning
+        </button>
+        <button class="btn red-natural red-disabled" disabled>Danger</button>
+      </div>
+      <div class="gap-2"></div>
+
+      <h2 class="black">BUTTONS ICONS</h2>
+      <div class="gap"></div>
+      <div class="bendri-button">
+        <div class="button-kaire">
+          <button class="btn salinti">LABEL - BEFORE</button>
+          <button class="btn blue-natural btn-icons">
+            <i class="fas fa-list"></i> Label Icon
+          </button>
+
+          <button class="btn blue-natural btn-icons mazesnis">
+            <i class="fas fa-list"></i> Label Icon
+          </button>
+
+          <button class="btn blue-natural btn-icons normalus">
+            <i class="fas fa-list"></i> Label Icon
+          </button>
+
+          <button class="btn blue-natural btn-icons maziausias">
+            <i class="fas fa-list"></i> Label Icon
+          </button>
         </div>
 
-        <div class="button-col-3">
-          <button class="btn">Primary</button>
-          <button class="btn blue-hover">Primary</button>
-          <button class="btn blue-active">Primary</button>
-        </div>
-        <div class="button-col-3">
-          <button class="btn dark-natural">Dark</button>
-          <button class="btn dark-hover">Dark</button>
-          <button class="btn dark-active">Dark</button>
-        </div>
-        <div class="button-col-3">
-          <button class="btn violet-natural">Info</button>
-          <button class="btn violet-hover">Info</button>
-          <button class="btn violet-active">Info</button>
-        </div>
-        <div class="button-col-3">
-          <button class="btn green-natural">Success</button>
-          <button class="btn green-hover">Success</button>
-          <button class="btn green-active">Success</button>
-        </div>
-        <div class="button-col-3">
-          <button class="btn yellow-natural">Warning</button>
-          <button class="btn yellow-hover">Warning</button>
-          <button class="btn yellow-active">Warning</button>
-        </div>
-        <div class="button-col-3">
-          <button class="btn red-natural">Danger</button>
-          <button class="btn red-hover">Danger</button>
-          <button class="btn red-active">Danger</button>
+        <div class="button-desine">
+          <button class="btn salinti">ACTION - AFTER</button>
+          <button class="btn blue-natural btn-icons flex-reverse">
+            <i class="fas fa-pen"></i> Label Icon
+          </button>
+
+          <button class="btn blue-natural btn-icons flex-reverse mazesnis">
+            <i class="fas fa-pen"></i> Label Icon
+          </button>
+
+          <button class="btn blue-natural btn-icons flex-reverse normalus">
+            <i class="fas fa-pen"></i> Label Icon
+          </button>
+
+          <button class="btn blue-natural btn-icons flex-reverse maziausias">
+            <i class="fas fa-pen"></i> Label Icon
+          </button>
         </div>
       </div>
-    </table-2>
-    <div class="gap"></div>
-    <h2>DISABLED BUTTON</h2>
-    <div class="gap"></div>
-
-    <h3>SOLID</h3>
+    </div>
   </body>
 </html>
