@@ -15,7 +15,7 @@ _buttons templates project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: - [Live Site of Button Templates ](https://darkera007.github.io/mygtukai/)
+Site published at: - [Live Site of Button Templates ](https://deangelo777.github.io/mygtukai/)
 
 Design:
 
